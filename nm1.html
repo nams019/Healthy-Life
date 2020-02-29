@@ -1,0 +1,302 @@
+<HTML>
+<head>
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<style type="text/css">
+<style>
+
+
+
+div.container{
+width:10%;
+height="5%"
+border:1px gray}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+body{margin:0;
+}
+
+ .topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('index1.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.col-container {
+    display: table;
+    width: 100% ;
+}
+.col {
+    display: table-cell;
+    padding: 16px;
+}
+
+tr:hover{background-color:#f5f5f5}
+
+.footer{
+ position:fixed;
+left:0;
+bottom:0;
+width:100%;
+text-align:center;
+color:white;
+background-color:grey;
+}
+ul.disc{
+   list-style-type:disc;
+   font-size:100%;
+   font-family:arial;
+    }
+</style>
+</head>
+</center>
+<body>
+<body bgcolor="#f0f0f0">
+
+<div class="container">
+<img src="h15.jpg"/>
+<p><b><i><h2>Life is not merely being alive, but being well</h2></i></b></p>
+
+</header>
+ <div class="topnav" id="myTopnav">
+  <a href="#home">Home</a>
+
+  <a href="H.html">Health</a>
+  <a href="any.html">Any help??</a>
+  <a href="contact.html">Contact us</a>
+  <a href="about1.html">About us</a>
+  <a href="log.html">Sign</a>
+  
+</div>
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+
+
+<div>
+<img class="mySlides" src="h1.jpg" style="width=150%"height="90%"></img>
+<img class="mySlides" src="h2.jpg" style="width=150%"height="90%"></img>
+<img class="mySlides" src="h3.jpg" style="width=150%"height="90%"></img>
+
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+ 
+
+</script> 
+<p><center><h2><u> Diets</h2></u></center></p>
+<!---><table style="width="200%">
+<td><div class="gallery">
+  <a target="_blank" href="index.png">
+    <img src="h11.jpg"  width="300" height="200">
+  </a> </td> 
+ 
+
+<td><div class="gallery">
+  <a target="_blank" href="index.png">
+    <img src="h12.jpg"  width="300" height="200">
+  </a></td>
+ 
+<td><div class="gallery">
+  <a target="_blank" href="index.png">
+    <img src="h13.jpg"  width="300" height="200">
+  </a></td>
+
+<td><div class="gallery">
+  <a target="_blank" href="index.png">
+    <img src="h14.jpg"  width="300" height="200">
+  </a></td>
+
+
+</table>
+
+
+
+<div>
+<p><center><h2><u> Key Facts</h2></u></center></p>  
+ <ul class="disc">
+<li>Malnutrition, in all its forms, includes undernutrition (wasting, stunting, underweight), inadequate vitamins or minerals, overweight, obesity, and resulting diet-related noncommunicable diseases.”</li>
+ <li>1.9 billion adults are overweight or obese, while 462 million are underweight.</li>
+<li>The developmental, economic, social, and medical impacts of the global burden of malnutrition are serious and lasting, for individuals and their families, for communities and for countries.</li>
+</ul>
+</div>
+
+<div>
+<p><center><h2><u> Various forms of malnutrition</h2></u></center></p>  
+<ul class="disc">
+<h3><b>1.Undernutrition</h3></b>
+<p>Low weight-for-height is known as wasting. It usually indicates recent and severe weight loss, because a person has not had enough food to eat and/or they have had an infectious disease, such as diarrhoea, which has caused them to lose weight. A young child who is moderately or severely wasted has an increased risk of death, but treatment is possible.</p>
+<h3><b>2.Overweight and obesity</h3></b>
+<p>Overweight and obesity result from an imbalance between energy consumed (too much) and energy expended (too little). Globally, people are consuming foods and drinks that are more energy-dense (high in sugars and fats), and engaging in less physical activity.</p>
+<h3><b>3.Diet-related noncommunicable diseases</h3></b>
+<p>Diet-related noncommunicable diseases (NCDs) include cardiovascular diseases (such as heart attacks and stroke, and often linked with high blood pressure), certain cancers, and diabetes. Unhealthy diets and poor nutrition are among the top risk factors for these diseases globally.</p>
+</ul>
+</div>
+
+
+
+
+ 
+<div>
+<p><center><h2><u>Something you should know </h2></u></center></p> 
+<img src="h7.jpg"  width="250" height="200" >
+<img src="h9.jpg"  width="250" height="200" >
+<img src="h10.png"  width="250" height="200" >
+
+
+
+<div class="col-container">
+  <div class="col" style="background:grey">
+    <h2><a href="#help">Help!</a></h2>
+    <p><img src="images18.png"width="35%"height="35%"></p>
+  </div>
+
+  <div class="col" style="background:grey">
+    <h2><a href="#youtube">Youtube</a></h2>
+ 
+    <p><img src="h6.jpg"width="35%" height="35%"></p>
+  </div>
+
+<div class="col" style="background:grey">
+    <h2><a href="feedback.html">Feedback</a></h2>
+ 
+    <p><img src="index38.jpg"width="35%" height="35%"></p>
+  </div>
+
+<div class="col" style="background:grey">
+    <h2><p><a href="#facebook">facebook</a></p></h2>
+ 
+    <p><img src="h5.png"width="35%" height="35%"></p>
+  </div>
+
+<div class="col" style="background:grey">
+    <h2><p><a href="#facebook">facebook</a></p></h2>
+ 
+    <p><img src="h18.png" width="35%" height="35%"></p>
+  </div>
+
+  
+</div>
+
+
+<div class="footer">
+
+<p>Copyright 2020&#169</p>
+</div>
+
+  
+</body>
+</html>
